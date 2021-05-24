@@ -221,14 +221,6 @@ blockquote p {
   line-height: 32px;
 }
 
-hr {
-  border: 0;
-  height: 1px;
-  background: #313438;
-  padding: 0 !important;
-  margin-bottom: 25px;
-}
-
 * {
   padding-bottom: 30px;
 }
@@ -258,7 +250,7 @@ button.open-merlin:hover {
   opacity: 0.7;
 }
 
-.btn {
+.btn.primary {
   background-color: #436D9F;
   color: white;
   border-color: transparent;
@@ -267,8 +259,22 @@ button.open-merlin:hover {
   padding: 0.375rem 1.75rem;
 }
 
-.btn:hover {
+.btn.primary:hover {
   background-color: #1a4980;
+}
+
+.btn.outline {
+  border-color: #436d9f;
+  color: #436d9f;
+  margin-top: 1.2rem;
+  border-radius: 0;
+  padding: 0.375rem 1.75rem;
+}
+
+.btn.outline:hover {
+  background-color: #436D9F;
+  color: white;
+  border-color: transparent;
 }
 
 .cpmtable {
@@ -334,6 +340,10 @@ input, fieldset {
 
 #map img {
   max-width: none;
+}
+
+.row {
+  margin: 0px;
 }
 
 .videoinner.left-align {

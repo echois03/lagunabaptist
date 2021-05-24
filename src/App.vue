@@ -1,6 +1,7 @@
 <template>
 <div id="app">
   <Main></Main>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 </div>
 </template>
 
