@@ -2,16 +2,16 @@
 <div id="subpage">
 <b-container fluid id="content">
     <b-nav id="nav">
-      <b-nav-item href="#overview">Overview</b-nav-item>
-      <b-nav-item href="#speakers">Speakers</b-nav-item>
-      <b-nav-item href="#schedule">Schedule</b-nav-item>
-      <b-nav-item href="#faqs">FAQ</b-nav-item>
-      <b-nav-item href="https://lagunabaptist.churchcenter.com/registrations/events/855765" target="_parent">Register</b-nav-item>
+      <b-nav-item class="navItem" href="#overview">Overview</b-nav-item>
+      <b-nav-item class="navItem" href="#speakers">Speakers</b-nav-item>
+      <b-nav-item class="navItem" href="#schedule">Schedule</b-nav-item>
+      <b-nav-item class="navItem" href="#faqs">FAQ</b-nav-item>
+      <b-nav-item class="navItem" href="https://lagunabaptist.churchcenter.com/registrations/events/855765" target="_parent">Register</b-nav-item>
     </b-nav>
   <b-row class="wrapper">
-    <b-col class="cms-output">
+    <b-col class="cms-output px-0">
       <b-row>
-        <b-col lg="8" md="7" class="pb-0 pr-lg-5">
+        <b-col lg="8" md="7" class="pb-0 pr-lg-5 px-0">
           <h2 id="overview">Foundations of Parenting</h2>
           <h5>June 25-27, 2021</h5>
           <p>The CFC is a church-wide event hosted at our church with the aim of blessing LCBC with biblical teaching on a specific, relevant topic. We hope that this will become a yearly tradition for our church. This year, the topic we want to address is the foundational, biblical framework for parenting. To that end, we have invited Dr. Brent Aucoin and his wife Janet from Faith Church of Lafayette, IN to speak. This year's conference will be called "Foundations of Parenting."</p>
@@ -21,7 +21,7 @@
         </b-col>
       </b-row>
       <b-row class="pt-3" lg="10">
-        <b-col lg="8" id="speakers">
+        <b-col lg="8" id="speakers" class="px-0">
           <h2>Speakers</h2>
           <p>We will be hearing from Dr. Brent Aucoin and his wife Janet. Pastor Daniel Moore has known the Aucoin's for almost 20 years, and Daniel learned under Dr. Aucoin while completing his M.Div. program at Faith Bible Seminary.</p>
         </b-col>
@@ -29,7 +29,7 @@
       <b-row>
         <b-col lg="10">
           <b-row>
-            <b-col sm="12">
+            <b-col sm="12" md="6" class="px-xs-0">
               <h5 class="center">Dr. Brent Aucoin</h5>
               <p style="text-align:justify">Dr. Brent Aucoin joined the staff of Faith Church in Lafayette, IN in July of 1998. He is the President of Faith Bible Seminary, Chair of the Seminary’s M.Div. Program, Pastor of Seminary and Soul Care at Faith Church (Lafayette, IN); ACBC certified; instructor and counselor at Faith Biblical Counseling Ministries; and a retreat and conference speaker.</p>
               <p class="pt-2"><strong>Credentials:</strong></p>
@@ -39,7 +39,7 @@
               Th.M. Trinity Evangelical Divinity School<br>
               Ph.D. Baptist Bible Seminary (Clarks Summit, PA)</p>
             </b-col>
-            <b-col>
+            <b-col class="px-xs-0">
               <h5 class="center">Janet Aucoin</h5>
               <p style="text-align:justify">Janet is the Director of Women's Ministries at Faith Church (Lafayette, IN); ACBC certified; teacher in Faith Community Institute; Coordinator of FBS seminary wives fellowship, retreat and conference speaker.<br>Brent and Janet have two adult children.</p>
             </b-col>
@@ -47,17 +47,17 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col>
+        <b-col class="px-0">
           <b-row class="day">
             <h2 id="schedule">Schedule</h2>
           </b-row>
           <b-row>
-            <b-col class="pl-0 pb-0">
+            <b-col sm="12" md="4" class="pl-0 pb-0">
               <b-row class="day pb-3">
                 <p><strong>Friday, June 25</strong></p>
               </b-row>
               <b-row class="pb-0">
-                <b-col lg="5" md="5" class="pl-0">
+                <b-col cols="5" class="pl-0">
                   <p>Session 1:</p>
                 </b-col>
                 <b-col class="px-0">
@@ -66,12 +66,12 @@
               </b-row>
             </b-col>
             <b-col class="border-left divider"></b-col>
-            <b-col class="pb-0 midCol">
+            <b-col sm="12" md="4" class="pb-0 padL0">
               <b-row class="day pb-3">
                 <p><strong>Saturday, June 26</strong></p>
               </b-row>
               <b-row class="pb-0">
-                <b-col lg="5" md="6" class="pl-0">
+                <b-col lg="5" md="6" cols="5" class="pl-0">
                   <p>Sessions 2&3:</p>
                   <p>Lunch Break:</p>
                   <p>Session 4:</p>
@@ -84,7 +84,7 @@
               </b-row>
             </b-col>
             <b-col class="border-left divider"></b-col>
-            <b-col class="pb-0">
+            <b-col class="pb-0 padL0">
               <b-row class="day pb-3">
                 <p><strong>Sunday, June 27</strong></p>
               </b-row>
@@ -96,7 +96,7 @@
         </b-col>
       </b-row>
       <b-row>
-        <b-col lg="8" class="gmaps">
+        <b-col lg="8" md="6" class="gmaps px-0">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3125.8270582413784!2d-121.45459288493106!3d38.42236137964668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac89942922cc1%3A0xb3c7c8cf96867698!2sLaguna%20Chinese%20Baptist%20Church!5e0!3m2!1sen!2sus!4v1621551126594!5m2!1sen!2sus" width="100%" height="100%" style="border:0;padding-bottom:0px;" allowfullscreen="" loading="lazy"></iframe>
         </b-col>
         <b-col class="py-5">
@@ -280,19 +280,15 @@ export default {}
 
 #nav {
   justify-content: center;
-  background-color: #353535;
-  color: white;
+  background-color: white;
   padding: 0.25rem 0;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .nav-link {
-  color: white;
+  color: #202124;
   font-weight: 500;
-  font-size: 16px;
-}
-
-.nav-link:hover {
-  color: white;
+  font-size: 1rem;
 }
 
 .cms-output {
@@ -362,12 +358,33 @@ export default {}
   }
 }
 
-@media(max-width:1024px) {
+@media(max-width:767px) {
+  .nav {
+    position: -webkit-sticky;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+  }
+
+  #subpage #content .wrapper {
+    margin-top: 65px !important;
+  }
+
+  .divider {
+    display: none;
+  }
+
+  .padL0 {
+    padding-left: 0px;
+  }
+}
+
+/*@media(max-width:1024px) {
   .midCol {
     flex: 0 0 41.666667%;
     max-width: 41.6666667%;
   }
-}
+}*/
 
 /*tablets+*/
 @media(min-width:815px) {
@@ -378,6 +395,10 @@ export default {}
   .divider {
     max-width: 20px;
     padding: 0;
+  }
+
+  .navItem {
+    margin-top: -15px;
   }
 }
 </style>

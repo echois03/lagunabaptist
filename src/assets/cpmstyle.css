@@ -924,74 +924,6 @@ header .header-btns li+li {
   }
 }
 
-header .logo-wrapper {
-  display: block;
-  position: relative;
-  width: 276px;
-  height: 160px;
-  /* left: 0; */
-  /* right: 0; */
-  /* margin: 0 auto; */
-  z-index: 2;
-  top: 0;
-  align-self: center;
-}
-
-@media (max-width: 1365px) {
-  header .logo-wrapper {
-    width: 233px;
-    height: 155px;
-  }
-}
-
-@media (max-width: 1024px) {
-  header .logo-wrapper {
-    position: absolute;
-    left: 0;
-    margin: 0 auto;
-    right: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  header .logo-wrapper {
-    position: absolute;
-    left: 0;
-    margin: 0 auto;
-    right: 0;
-  }
-}
-
-header .logo-wrapper a.logo {
-  display: block;
-  position: relative;
-  width: 100%;
-  height: 100%;
-  max-width: 172px;
-}
-
-@media (max-width: 1365px) {
-  header .logo-wrapper a.logo {
-    max-width: 160px;
-  }
-}
-
-@media (max-width: 1024px) {
-  header .logo-wrapper a.logo {
-    max-width: 212px;
-  }
-}
-
-@media (max-width: 768px) {
-  header .logo-wrapper a.logo {
-    max-width: 178px;
-  }
-}
-
-header .logo-wrapper a.logo:hover {
-  opacity: 0.7;
-}
-
 header nav#social {
   display: block;
   position: relative;
@@ -1922,10 +1854,6 @@ footer .btm-info .mobile-wrapper nav#social a:before {
   }
 }
 
-#subpage #content .wrapper {
-  margin-top: 8px;
-}
-
 #subpage #content .wrapper button {
   font-family: "brandon-grotesque", serif;
   font-weight: 600;
@@ -2008,7 +1936,7 @@ footer .btm-info .mobile-wrapper nav#social a:before {
   font-family: "brandon-grotesque", sans-serif;
   font-weight: 600;
   font-size: 40px;
-  line-height: 50px;
+  line-height: 1.2;
 }
 
 @media (max-width: 1700px) {
