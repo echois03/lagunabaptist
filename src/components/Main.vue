@@ -1,13 +1,6 @@
 <template lang="html">
 <div id="subpage">
 <b-container fluid id="content">
-    <b-nav id="nav">
-      <b-nav-item class="navItem" href="#overview">Overview</b-nav-item>
-      <b-nav-item class="navItem" href="#speakers">Speakers</b-nav-item>
-      <b-nav-item class="navItem" href="#schedule">Schedule</b-nav-item>
-      <b-nav-item class="navItem" href="#faqs">FAQ</b-nav-item>
-      <b-nav-item class="navItem" href="https://lagunabaptist.churchcenter.com/registrations/events/855765" target="_parent">Register</b-nav-item>
-    </b-nav>
   <b-row class="wrapper">
     <b-col class="cms-output px-0">
       <b-row>
@@ -278,19 +271,6 @@ export default {}
   justify-content: center;
 }
 
-#nav {
-  justify-content: center;
-  background-color: white;
-  padding: 0.25rem 0;
-  border-bottom: 1px solid #dee2e6;
-}
-
-.nav-link {
-  color: #202124;
-  font-weight: 500;
-  font-size: 1rem;
-}
-
 .cms-output {
   text-align: left;
 }
@@ -359,13 +339,6 @@ export default {}
 }
 
 @media(max-width:576px) {
-  .nav {
-    position: -webkit-sticky;
-    position: fixed;
-    top: 0;
-    z-index: 1;
-  }
-
   #subpage #content .wrapper {
     margin-top: 65px !important;
   }
@@ -395,10 +368,6 @@ export default {}
   .divider {
     max-width: 20px;
     padding: 0;
-  }
-
-  .navItem {
-    margin-top: -15px;
   }
 }
 </style>
