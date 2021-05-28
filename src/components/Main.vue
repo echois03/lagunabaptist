@@ -11,13 +11,13 @@
   <b-row class="wrapper">
     <b-col class="cms-output px-0">
       <b-row>
-        <b-col lg="8" md="7" class="pb-0 pr-lg-5 px-0">
+        <b-col lg="8" sm="7" class="pb-0 pr-lg-5 px-0">
           <h2 id="overview">Foundations of Parenting</h2>
           <h5>June 25-27, 2021</h5>
           <p>The CFC is a church-wide event hosted at our church with the aim of blessing LCBC with biblical teaching on a specific, relevant topic. We hope that this will become a yearly tradition for our church. This year, the topic we want to address is the foundational, biblical framework for parenting. To that end, we have invited Dr. Brent Aucoin and his wife Janet from Faith Church of Lafayette, IN to speak. This year's conference will be called "Foundations of Parenting."</p>
           <b-button class="btn register primary" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/855765">Register</b-button>
         </b-col>
-        <b-col lg="4" md="5" class="backImg">
+        <b-col lg="4" sm="5" class="backImg">
         </b-col>
       </b-row>
       <b-row class="pt-3" lg="10">
@@ -52,7 +52,7 @@
             <h2 id="schedule">Schedule</h2>
           </b-row>
           <b-row>
-            <b-col sm="12" md="4" class="pl-0 pb-0">
+            <b-col cols="12" sm="4" class="pl-0 pb-0">
               <b-row class="day pb-3">
                 <p><strong>Friday, June 25</strong></p>
               </b-row>
@@ -66,7 +66,7 @@
               </b-row>
             </b-col>
             <b-col class="border-left divider"></b-col>
-            <b-col sm="12" md="4" class="pb-0 padL0">
+            <b-col cols="12" sm="4" class="pb-0 padL0">
               <b-row class="day pb-3">
                 <p><strong>Saturday, June 26</strong></p>
               </b-row>
@@ -358,7 +358,7 @@ export default {}
   }
 }
 
-@media(max-width:767px) {
+@media(max-width:576px) {
   .nav {
     position: -webkit-sticky;
     position: fixed;
@@ -387,7 +387,7 @@ export default {}
 }*/
 
 /*tablets+*/
-@media(min-width:815px) {
+@media(min-width:500px) {
   .gmaps {
     padding-right: 1rem;
   }
