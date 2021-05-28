@@ -339,10 +339,6 @@ export default {}
 }
 
 @media(max-width:576px) {
-  #subpage #content .wrapper {
-    margin-top: 65px !important;
-  }
-
   .divider {
     display: none;
   }
