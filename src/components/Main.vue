@@ -8,7 +8,7 @@
           <h2 id="overview">Foundations of Parenting</h2>
           <h5>June 25-27, 2021</h5>
           <p>The CFC is a church-wide event hosted at our church with the aim of blessing LCBC with biblical teaching on a specific, relevant topic. We hope that this will become a yearly tradition for our church. This year, the topic we want to address is the foundational, biblical framework for parenting. To that end, we have invited Dr. Brent Aucoin and his wife Janet from Faith Church of Lafayette, IN to speak. This year's conference will be called "Foundations of Parenting."</p>
-          <b-button class="btn register primary" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/855765">Register</b-button>
+          <b-button class="btn register primary" target="_parent" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/855765">Register</b-button>
         </b-col>
         <b-col lg="4" sm="5" class="backImg">
         </b-col>
@@ -247,7 +247,7 @@
           <b-col>
           <h2>Church Family Conference 2021</h2>
           <p>JUNE 25-27, 2021<br>LCBC in Elk Grove, CA</p>
-          <b-button class="btn register primary mt-5" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/855765"><strong>Register Now</strong></b-button>
+          <b-button class="btn register primary mt-5" target="_parent" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/855765"><strong>Register Now</strong></b-button>
           </b-col>
         </b-row>
     </b-col>
