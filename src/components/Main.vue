@@ -3,14 +3,15 @@
 <b-container fluid id="content">
   <b-row class="wrapper">
     <b-col class="cms-output px-0">
-      <b-row>
-        <b-col lg="8" sm="7" class="pb-0 pr-lg-5 px-0">
+      <b-row class="pb-0">
+        <b-col lg="7" sm="12" class="pb-0 pr-lg-5 px-0">
           <h2 id="overview">Foundations of Parenting</h2>
           <h5>June 25-27, 2021</h5>
           <p>The CFC is a church-wide event hosted at our church with the aim of blessing LCBC with biblical teaching on a specific, relevant topic. We hope that this will become a yearly tradition for our church. This year, the topic we want to address is the foundational, biblical framework for parenting. To that end, we have invited Dr. Brent Aucoin and his wife Janet from Faith Church of Lafayette, IN to speak. This year's conference will be called "Foundations of Parenting."</p>
           <b-button class="btn register primary" target="_parent" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/855765">Register</b-button>
         </b-col>
-        <b-col lg="4" sm="5" class="backImg">
+        <b-col lg="5" sm="12" class="vidEmbed pb-0">
+          <iframe id="vimeo" src="https://player.vimeo.com/video/561002215?color=7C2348&amp;title=0&amp;byline=0&amp;portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
         </b-col>
       </b-row>
       <b-row class="pt-3" lg="10">
@@ -290,12 +291,8 @@ export default {}
   text-align: left;
 }
 
-.backImg {
-  background-image: url("https://www.csmedia1.com/lagunabaptist.org/aucoins_picture.jpeg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 280px;
+.vidEmbed {
+  text-align: center;
 }
 
 .day {
@@ -328,10 +325,6 @@ export default {}
 
 /*phones*/
 @media(max-width:814px) {
-  .backImg {
-    margin: 32px 0;
-  }
-
   .divider {
     max-width: 10px;
     padding: 0;
@@ -346,14 +339,19 @@ export default {}
   .padL0 {
     padding-left: 0px;
   }
+
+  .vidEmbed,
+  #vimeo {
+    max-height: 281px;
+    padding-bottom: 0px;
+  }
 }
 
-/*@media(max-width:1024px) {
-  .midCol {
-    flex: 0 0 41.666667%;
-    max-width: 41.6666667%;
+@media(max-width:1024px) and (min-width:480px) {
+  .vidEmbed {
+    margin-top: 50px;
   }
-}*/
+}
 
 /*tablets+*/
 @media(min-width:500px) {
