@@ -145,7 +145,7 @@
             </b-card-header>
             <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
               <b-card-body>
-                <b-card-text>Since this is a parenting conference, we want to make childcare available for kids 3rd grade and under. We are currently working on details for making this possible. Stay-tuned for more details.</b-card-text>
+                <b-card-text>On-site childcare is available for kids 3rd grade and under. We will not be providing snacks for childcare, so we ask that all parents bring snacks for their children. We will be observing recommended CDC guidelines such as wearing masks indoors and frequent hand-washing.</b-card-text>
               </b-card-body>
             </b-collapse>
           </b-card>
