@@ -1,3 +1,12 @@
+#subpage #content .wrapper {
+  width:100%!important;
+}
+
+#subpage.with-default #content .wrapper .banner-title {
+  display:none;
+  padding:20px 0 120px 0;
+}
+
 .header-wrap:before {
   content: ' ';
   display: block;
