@@ -175,7 +175,7 @@
         </b-card>
       </div>
     </b-row>
-    <b-button class="btn register primary mt-3" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/1351974">Register Now</b-button>
+    <b-button target="_blank" class="btn register primary mt-3" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/1351974">Register Now</b-button>
   </div>
 </div>
 </template>
