@@ -1,5 +1,7 @@
 #subpage #content .wrapper {
   width:100%!important;
+  max-width:none;
+  padding-top:20px;
 }
 
 #subpage.with-default #content .wrapper .banner-title {
