@@ -2,20 +2,22 @@
   <div id="app">
     <Header/>
     <BodyContent/>
+    <AlertModal/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.1/css/all.css">
-
   </div>
 </template>
 
 <script>
 import Header from './components/Header.vue';
 import BodyContent from './components/BodyContent.vue';
+import AlertModal from './components/AlertModal.vue';
 
 export default {
   name: 'App',
   components: {
     Header,
-    BodyContent
+    BodyContent,
+    AlertModal
   }
 }
 </script>

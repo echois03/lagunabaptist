@@ -25,41 +25,49 @@
         </ul>
       </b-col>
     </b-row>
-    <h2 id="schedule" class="pb-5 text-start">Schedule</h2>
+    <h2 id="schedule" class="pb-4 text-start">Schedule</h2>
     <b-row class="text-start">
-      <b-col cols="12" sm="4" class="pl-0 pb-sm-0 pb-3 pr-5 v-border-right">
-        <b-row class="day pb-3">
-          <p><strong>Friday, September 9</strong></p>
+      <b-col cols="12" sm="4" class="pl-0 pb-sm-0 pb-4 pr-5 v-border-right">
+        <b-row class="day pb-2 pb-sm-3">
+          <h5><strong>Friday, November 4</strong></h5>
         </b-row>
-        <b-row class="pb-0">
+        <b-row class="pb-1">
           <b-col cols="5" class="pl-0">
-            <p>Session 1:</p>
+            <strong><span>Session 1:</span></strong>
           </b-col>
           <b-col class="px-0">
-            <p>7:00 - 8:30PM</p>
+            <span>7:00 - 8:30PM</span>
           </b-col>
         </b-row>
+        <b-row><em>"What is Medical about Mental Illness?"</em></b-row>
       </b-col>
-      <b-col cols="12" sm="4" class="pb-sm-0 pb-3 px-sm-5 v-border-right">
-        <b-row class="day pb-3">
-          <p><strong>Saturday, September 10</strong></p>
+      <b-col cols="12" sm="4" class="pb-sm-0 pb-4 px-sm-5 v-border-right">
+        <b-row class="day pb-2 pb-sm-3">
+          <h5><strong>Saturday, November 5</strong></h5>
         </b-row>
-        <b-row class="pb-0">
-          <b-col lg="5" md="6" cols="5" class="pl-0">
-            <p>Sessions 2&3:</p>
-            <p>Lunch Break:</p>
-            <p>Session 4:</p>
+        <b-row class="pb-1">
+          <b-col cols="5" class="pl-0">
+           <strong> <span>Sessions 2&3:</span></strong>
           </b-col>
           <b-col class="px-0">
-            <p>9:00 - 11:35AM</p>
-            <p>11:35AM - 1:00PM</p>
-            <p>1:00 - 2:30PM</p>
+            <span>9:00 - 11:35AM</span>
           </b-col>
         </b-row>
+        <b-row><em>"The Sufficiency of Scripture and Medicine" & "Help for Depression"</em></b-row>
+        <b-row class="pt-3"><strong><p>Lunch Break</p></strong></b-row>
+        <b-row class="pb-1">
+          <b-col cols="5" class="pl-0">
+            <strong><span>Session 4:</span></strong>
+          </b-col>
+          <b-col class="px-0">
+            <span>1:00 - 2:30PM</span>
+          </b-col>
+        </b-row>
+        <b-row><em>"Help for Bipolar Disorder"</em></b-row>
       </b-col>
       <b-col class="pb-0 ps-sm-5">
-        <b-row class="day pb-3">
-          <p><strong>Sunday, September 11</strong></p>
+        <b-row class="day pb-2 pb-sm-3">
+          <h5><strong>Sunday, November 6</strong></h5>
         </b-row>
         <b-row align-h="start" class="pb-0">
             <p>Join us for Sunday worship at <em>9am</em>!</p>
@@ -72,9 +80,23 @@
       <div class="accordion pb-0" role="tablist">
         <b-card no-body>
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block v-b-toggle.accordion-1 variant="light" class="FAQs"> +      Is there a cost for attending?</b-button>
+            <b-button block v-b-toggle.accordion-1 variant="light" class="FAQs"> + What if I registered and cannot come to the new dates?</b-button>
           </b-card-header>
           <b-collapse id="accordion-1" accordion="my-accordion" role="tabpanel">
+            <b-card-body>
+              <b-card-text><p>If you registered online and you know that you will not be able to attend the conference or serve as a volunteer on the new dates of Nov. 4-5, you can cancel your registration by clicking <a href="https://lagunabaptist.churchcenter.com/registrations/events/1351974">HERE</a>. Click the "View Registration" button on the registration page. After you have done that, you can click the text "cancel online" at the bottom of the page. All attendees who paid their registration fee online will be fully refunded.</p>
+              PLEASE NOTE: if you registered to attend AND you paid your registration fee online, please note that you will receive a refund back to your method of payment within 3-4 business days.
+              </b-card-text>
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+      </div>
+      <div class="accordion pb-0" role="tablist">
+        <b-card no-body>
+          <b-card-header header-tag="header" class="p-1" role="tab">
+            <b-button block v-b-toggle.accordion-2 variant="light" class="FAQs"> +      Is there a cost for attending?</b-button>
+          </b-card-header>
+          <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
             <b-card-body>
               <b-card-text>There will be a small fee of $20 per adult who attends ($25 per adult for non-members). This will help cover costs for refreshments, lunch, and books that we will be giving-away to all attendees.
               </b-card-text>
@@ -85,9 +107,9 @@
       <div class="accordion pb-0" role="tablist">
           <b-card no-body>
             <b-card-header header-tag="header" class="p-1" role="tab">
-              <b-button block v-b-toggle.accordion-2 variant="light" class="FAQs"> +      Where should I go when I arrive?</b-button>
+              <b-button block v-b-toggle.accordion-3 variant="light" class="FAQs"> +      Where should I go when I arrive?</b-button>
             </b-card-header>
-            <b-collapse id="accordion-2" accordion="my-accordion" role="tabpanel">
+            <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
               <b-card-body>
                 <b-card-text>Upon arrival, check-in at the registration table in the MPR (the white building) where main events will be hosted. Childcare will be located in the ETC (the red building).</b-card-text>
               </b-card-body>
@@ -97,9 +119,9 @@
       <div class="accordion pb-0" role="tablist">
           <b-card no-body>
             <b-card-header header-tag="header" class="p-1" role="tab">
-              <b-button block v-b-toggle.accordion-3 variant="light" class="FAQs"> +      Is there childcare?</b-button>
+              <b-button block v-b-toggle.accordion-4 variant="light" class="FAQs"> +      Is there childcare?</b-button>
             </b-card-header>
-            <b-collapse id="accordion-3" accordion="my-accordion" role="tabpanel">
+            <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
               <b-card-body>
                 <b-card-text>On-site childcare is available for kids 3rd grade and under. We will be providing snacks for childcare, but we ask parents to bring snacks for their children if they have any allergy concerns. We will be observing recommended CDC guidelines such as wearing masks indoors and frequent hand-washing. Kids 4th grade and above are welcome to attend sessions with their parents.</b-card-text>
               </b-card-body>
@@ -109,11 +131,11 @@
       <div class="accordion pb-0" role="tablist">
         <b-card no-body>
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block v-b-toggle.accordion-4 variant="light" class="FAQs"> +      What is included in the registration?</b-button>
+            <b-button block v-b-toggle.accordion-5 variant="light" class="FAQs"> +      What is included in the registration?</b-button>
           </b-card-header>
-          <b-collapse id="accordion-4" accordion="my-accordion" role="tabpanel">
+          <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
             <b-card-body>
-              <b-card-text>Your registration cost of $10 per adult will include the following:
+              <b-card-text>Your registration cost per adult will include the following:
               <ul>
                 <li>Saturday morning snacks and refreshments, as well as Saturday lunch</li>
                 <li>Resources on the topic of a biblical response to mental illness that we recommend</li>
@@ -125,9 +147,9 @@
       <div class="accordion pb-0" role="tablist">
         <b-card no-body>
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block v-b-toggle.accordion-5 variant="light" class="FAQs"> +      When do I pay my registration fee?</b-button>
+            <b-button block v-b-toggle.accordion-6 variant="light" class="FAQs"> +      When do I pay my registration fee?</b-button>
           </b-card-header>
-          <b-collapse id="accordion-5" accordion="my-accordion" role="tabpanel">
+          <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
             <b-card-body>
               <b-card-text>There are two ways you can pay: pay online when you register to attend, or pay at the door when you arrive in-person for CFC. If you choose to pay at the door, select "Pay Later" when you are registering online.</b-card-text>
             </b-card-body>
@@ -137,9 +159,9 @@
       <div class="accordion pb-0" role="tablist">
         <b-card no-body>
           <b-card-header header-tag="header" class="p-1" role="tab">
-            <b-button block v-b-toggle.accordion-6 variant="light" class="FAQs"> +      When is the last day I can register?</b-button>
+            <b-button block v-b-toggle.accordion-7 variant="light" class="FAQs"> +      When is the last day I can register?</b-button>
           </b-card-header>
-          <b-collapse id="accordion-6" accordion="my-accordion" role="tabpanel">
+          <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
             <b-card-body>
               <b-card-text>We will keep registration open until the day of the CFC, but if we get enough registrations where we would max out the room capacity, then we would need to close registration at that point.</b-card-text>
             </b-card-body>
@@ -149,9 +171,9 @@
       <div class="accordion pb-0" role="tablist">
           <b-card no-body>
             <b-card-header header-tag="header"  class="p-1" role="tab">
-              <b-button block v-b-toggle.accordion-7 variant="light" class="FAQs"> +      Will there be a live-stream to watch online?</b-button>
+              <b-button block v-b-toggle.accordion-8 variant="light" class="FAQs"> +      Will there be a live-stream to watch online?</b-button>
             </b-card-header>
-            <b-collapse id="accordion-7" accordion="my-accordion" role="tabpanel">
+            <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel">
               <b-card-body>
                 <b-card-text>We do not plan to live-stream the conference. We encourage everyone to come out in-person for the full-experience. However, we do plan to record the sessions and make them available at a later date.</b-card-text>
               </b-card-body>
@@ -161,19 +183,41 @@
       <div class="accordion pb-0" role="tablist">
         <b-card no-body>
           <b-card-header header-tag="header"  class="p-1" role="tab">
-            <b-button block v-b-toggle.accordion-8 variant="light" class="FAQs">+ Can I invite other people who do not attend LCBC?</b-button>
+            <b-button block v-b-toggle.accordion-9 variant="light" class="FAQs">+ Can I invite other people who do not attend LCBC?</b-button>
           </b-card-header>
-          <b-collapse id="accordion-8" accordion="my-accordion" role="tabpanel">
+          <b-collapse id="accordion-9" accordion="my-accordion" role="tabpanel">
             <b-card-body>
               <b-card-text>The CFC is intended primarily for our church family at LCBC. However, we hope we can bless others from other church families as well. To that end, the registration timeframe will be as follows:
               <ul>
                 <li>July 10 - Aug. 9: Open registration for all LCBC members and attendees</li>
-                <li>Aug. 10 - Sept. 9: Open registration for anyone</li>
+                <li>Aug. 10 - Nov. 4: Open registration for anyone</li>
               </ul></b-card-text>
             </b-card-body>
           </b-collapse>
         </b-card>
       </div>
+      <div class="accordion pb-0" role="tablist">
+        <b-card no-body>
+          <b-card-header header-tag="header"  class="p-1" role="tab">
+            <b-button block v-b-toggle.accordion-10 variant="light" class="FAQs">+ What if you can still volunteer on the new dates, but need to change which area or time you are serving?</b-button>
+          </b-card-header>
+          <b-collapse id="accordion-10" accordion="my-accordion" role="tabpanel">
+            <b-card-body>If you registered online as a volunteer for childcare and you wish to adjust which days you are serving, you can click <a href="https://lagunabaptist.churchcenter.com/registrations/events/1351974">HERE</a> and then click "View Registration." Once you do that, click "Attendee Information" under the name of the individual in your party (if applicable) that you wish to edit.
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+      </div>
+      <div class="accordion pb-0" role="tablist">
+        <b-card no-body>
+          <b-card-header header-tag="header"  class="p-1" role="tab">
+            <b-button block v-b-toggle.accordion-11 variant="light" class="FAQs">+ Is there a chance the conference will need to be postponed again?</b-button>
+          </b-card-header>
+          <b-collapse id="accordion-11" accordion="my-accordion" role="tabpanel">
+            <b-card-body>We are in close contact with our guest speaker regarding his wife's health. We ask that you pray for her recovery and for wisdom for the medical staff in how to move forward. At this point in time, Dr. Hodges expects that he should be able to travel and speak here in-person on Nov. 4-5. However, in the event that he cannot travel, we will NOT be postponing the conference a second time, and instead we will have him speak remotely. We will be working on being prepared should that need arise, and we hope and pray that we will not need to resort to that.
+            </b-card-body>
+          </b-collapse>
+        </b-card>
+      </div>    
     </b-row>
     <b-button target="_blank" class="btn register primary mt-3" variant="primary" href="https://lagunabaptist.churchcenter.com/registrations/events/1351974">Register Now</b-button>
   </div>

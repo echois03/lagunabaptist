@@ -28,7 +28,7 @@
               </span>
             </b-col>
             <b-col class="left-align px-0 align-self-center col-auto">
-              <p class="mb-0">Sept 9-10</p>
+              <p class="mb-0">Nov 4-5</p>
             </b-col>
           </b-row>
         </b-col> 
